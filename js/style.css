@@ -1,0 +1,84 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #EFEBE2;
+}
+
+.banner{
+  margin: 50px 15%;
+  width: 70%;
+}
+
+.main{
+  width: 100%;
+  padding: 10px 2%;
+}
+
+.image{
+  margin: 40px 0 0 0px;
+  background-image: url(../pics/port4.gif);
+  height: 186px;
+  width:150px;
+}
+.cardDeck{
+  border-radius: 10%;
+  background-size: cover;
+  background-image: url(../pics/stars.jpg);
+  width:15%;
+  border:2px solid #F3B187;
+  display: inline-block;
+  height: 200px;
+  margin: 25px 0 0 100px
+}
+.win{
+  display: block;
+  float: left;
+  margin: 0 50% 0 35%;
+}
+
+.cards{
+  margin: 10px 0 0 0;
+  float: left;
+  display: inline-block;
+  width: 20%;
+  border: 2px solid black;
+}
+
+.newPics{
+  border-radius: 10%;
+  width:100%;
+  border:3px solid #F3B187;
+  display: inline-block;
+  height: 200px;
+}
+
+.hide{
+  display: none;
+}
+
+.afterWin{
+  width: 100%;
+}
+
+.afterWin section{
+  width: 15%;
+  float: left;
+}
+
+h1, .cardDeck h2{
+  font-family: 'Alata', sans-serif;
+  color: #E7646C;
+  font-size: 25px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.cardDeck h2{
+  padding: 20px 5px;
+
+}
